@@ -1,4 +1,4 @@
-# PyG Benchmark
+# PyG Benchmarks
 
 ### Contents
 - [Setup](#setup)
