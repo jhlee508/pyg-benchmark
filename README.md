@@ -3,7 +3,7 @@
 ### Contents
 - [Setup](#setup)
 - [Examples](examples)
-- [Benchmarks](benckmark)
+- [Benchmarks](benchmark)
 
 ## Setup
 ```bash
