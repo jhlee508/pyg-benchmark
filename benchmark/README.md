@@ -19,19 +19,19 @@ python datasets.py
 cd models/
 
 # GCN
-python gcn.py
+gcn.py
 # GraphSAGE
-python graph_sage.py
+graph_sage.py
 # GAT
-python gat.py
+gat.py
 # Chebyshev GCN
-python cheb.py
+cheb.py
 # Simplifying GCN
-python sgc.py
+sgc.py
 # Arma GCN
-python arma.py
+arma.py
 # APPNP
-python appnp.py
+appnp.py
 ```
 
 
