@@ -19,6 +19,6 @@ conda install pyg -c pyg
 pip install pyg-lib -f https://data.pyg.org/whl/torch-2.0.0+cu117.html
 ```
 
-## Reference
+## Acknowledgement
 
-The code in this repo is based on [pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) which is provided under MIT License.
+The code in this repo is highly based on [pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) which is provided under MIT License.
