@@ -29,4 +29,6 @@ def print_dataset(dataset):
 
 
 for name in ['Cora', 'CiteSeer', 'PubMed']:
-    print_dataset(get_planetoid_dataset(name))
+    path = osp.join(osp.dirname(osp.realpath(__file__)), '..', 'data', name)
+    if osp.exists(path) is False:
+        print_dataset(get_planetoid_dataset(name))

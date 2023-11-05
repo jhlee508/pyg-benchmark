@@ -1,8 +1,13 @@
 import argparse
+import os
+import sys
 
 import torch
 import torch.nn.functional as F
-from citation import get_planetoid_dataset, random_planetoid_splits, run
+
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+from datasets import get_planetoid_dataset
+from train_eval import random_planetoid_splits, run
 
 from torch_geometric.nn import ARMAConv
 from torch_geometric.profile import rename_profile_file
