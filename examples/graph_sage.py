@@ -18,7 +18,7 @@ parser.add_argument('--lr', type=float, default=0.01)
 parser.add_argument('--epochs', type=int, default=50)
 args = parser.parse_args()
 
-path = osp.join(osp.dirname(osp.realpath(__file__)), '../data', 'Planetoid')
+path = osp.join(osp.dirname(osp.realpath(__file__)), '../data', args.dataset)
 dataset = Planetoid(path, args.dataset, transform=T.NormalizeFeatures())
 data = dataset[0]
 
