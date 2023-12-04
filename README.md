@@ -4,6 +4,7 @@
 - [Setup](#setup)
 - [Examples](examples)
 - [Benchmarks](benchmark)
+- [Datasets](dataset)
 
 ## Setup
 ```bash
